@@ -1,0 +1,9 @@
+Initializing and Cloning Repositories:
+git init: Initializes a new Git repository in the current directory.
+git clone <repository-url>: Creates a local copy of an existing remote repository. 
+Managing Changes:
+git status: Displays the state of the working directory and the staging area, showing staged, unstaged, and untracked files.
+git add <file>: Adds changes from the working directory to the staging area. Use git add . to add all changes. 
+git commit -m "Your commit message": Records the staged changes in the repository with a descriptive message.
+git diff: Shows the differences between the working directory and the staging area.
+git diff --staged: Shows the differences between the staging area and the last commit.
